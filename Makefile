@@ -58,7 +58,7 @@ LDFLAGS            += -lpthread -lX11 -mwindows
 LDFLAGS            += -L$(LIBDIR_WINE)
 
 # Shared include / install paths
-INCLUDE_PATH       := -I. -I/usr/include -I/usr/include/wine -I/usr/include/wine/windows -I/usr/include/x86_64-linux-gnu
+INCLUDE_PATH       := -I. -I/usr/include -I/usr/include/wine/wine -I/usr/include/wine/wine/windows -I/usr/include/x86_64-linux-gnu
 DESTDIR            :=
 PREFIX             := /usr
 MANDIR             := $(PREFIX)/man/man1
